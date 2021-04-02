@@ -1,5 +1,6 @@
 <?php
     class Database {
+        //database configuration
         private $host = "127.0.0.1";
         private $database_name = "example_database";
         private $username = "example_user";

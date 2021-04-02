@@ -25,7 +25,7 @@
             $this->conn = $db;
         }
 
-        // Get all
+        // Get all museums
         public function getMuseums()
         {
             $sqlQuery = "SELECT id, mname, arabic_name, city, type, est_year, website, coordinates, wikipedia_url FROM " . $this->db_table." ";
