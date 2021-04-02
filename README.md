@@ -3,7 +3,7 @@ This API provides list of museums in Egypt.
 
 _**Created using php 8.03**_
 
-###Output Components
+### Output Components
 this API provides output in json format as following:
 1. count of rows
 2. body of output: array of museums showing [id, museum, arabic_name, city, type, establishment year, website, location coordinates, wikipedia url]
